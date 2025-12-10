@@ -1,4 +1,4 @@
-# EasyCrypt
+# EasyCrypt Terminal & Nautilus Easy File&folder encryption (AES-256)
 
 EasyCrypt is a Python-based tool for secure file encryption and decryption, supporting both Zenity GUI dialogs and terminal interaction. It is designed for easy integration as a Nautilus script or direct command-line use, with flexible configuration via command-line arguments or a JSON config file.
 
@@ -103,6 +103,6 @@ python3 easycrypt.py --help
 ## Credits
 
 ©️ Copyright 2025 Maximilian Cornett  
-📨 max.cornett@gmail.com 📨
+📨 www.yourdev.net is my website, contact me there If I dont answer here. 📨
 
 ---
