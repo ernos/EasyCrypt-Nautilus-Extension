@@ -92,6 +92,24 @@ python3 easycrypt.py --help
 
 ---
 
+## Screenshot and video examples of nautilus integration with zenity dialoges
+<img width="603" height="330" alt="overwrite file dialog" src="https://github.com/user-attachments/assets/260daa7a-52cd-4029-aaf1-d07ecab188cf" />
+<img width="603" height="330" alt="Encryption complete" src="https://github.com/user-attachments/assets/a8c3eb14-6faf-4105-b014-6f799a0785bd" />
+<img width="603" height="330" alt="easycrypt overwrigth dialog" src="https://github.com/user-attachments/assets/8def1afc-a1d4-4da3-a696-bf3def83c018" />
+<img width="603" height="330" alt="Checksum verification on both both encryption and decryption for safety" src="https://github.com/user-attachments/assets/25c69fc9-0ebd-4eb6-b2bc-ac677d03d509" />
+Verification of checksum for both encryption (it encrypts once, and the one more time, verifies the checksum between the two for security reasons and then verifies the encryption.
+For decryption, standard checksum verification before acceping the decryption and writing to a file. If it gives you a green checkbox, you know for a fact that the encrypted or decrypted file is working and not corrupt.
+
+
+
+### Single file encryption and decryption using nautilus extension
+[easycrypt nautilus multiple files.webm](https://github.com/user-attachments/assets/cf8f87c2-92b4-48ce-95ee-7025f92f9a6f)
+
+### Multiple file encryption and decryption using nautilus extension
+[easycrypt nautilus single file.webm](https://github.com/user-attachments/assets/5be8651b-c8e1-4b38-9c13-38ddb12f9fb1)
+
+
+
 ## Notes
 
 - Passwords passed via command line may be visible in your shell history and process list.
