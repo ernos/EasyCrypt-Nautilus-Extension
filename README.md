@@ -13,7 +13,8 @@ Installing without root access from any folder:
 ```
 mkdir ~/bin
 git clone https://github.com/ernos/easycrypt.git
-ln -s $PWD/easycrypt.py ~/bin/easycrypt
+cd easycrypt
+ln -s $PWD/easycrypt ~/bin/easycrypt
 ln -s $PWD/easycryptconfig.json ~/easycryptconfig.json
 
 #if your $PATH env does not have your /home/x/bin you need to run these two commands as well:
@@ -23,7 +24,7 @@ source .bashrc
 For installing nautilus context menu extension:
 ```
 #For installing nautilus extension:
-mkdir ~/.local/share/nautilus-python/extensions/nautilus-easycrypt.py
+mkdir ~/.local/share/nautilus-python/extensions
 ln -s $PWD/nautilus-python/extensions/easycrypt-nautilus.py ~/.local/share/nautilus-python/extensions/easycrypt-nautilus.py
 nautilus -q
 ```
